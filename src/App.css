@@ -1,0 +1,82 @@
+/* root */
+
+@font-face {
+  font-family: inter;
+  src: url(../public/font/Inter-VariableFont_opsz,wght.ttf);
+}
+
+
+:root {
+  --background: #181C14;
+  --box: #3C3D37;
+  --text: #ECDFCC;
+  --text-green:#697565;
+  --title: #FFFFFF;
+  --disable-text: #8A8D91;
+  --accept-button: #3BAF87;
+  --accept-hover: #4ACF9B;
+  --warning-button: #E57373;
+  --cta-button: #FFB74D;
+
+
+  /* 
+
+هدر و نوار کناری:
+
+رنگ آبی سرمه‌ای (#232A3E) با آیکون‌ها یا متن سفید (#FFFFFF).
+
+کارت‌های اطلاعات:
+
+پس‌زمینه آبی سرمه‌ای (#232A3E) با متن خاکستری روشن (#D1D5DB).
+
+نمودار‌ها یا گراف‌ها:
+
+استفاده از سبز تیره و نارنجی طلایی با خطوط نرم.
+
+دکمه‌ها:
+سبز برای تأیید، قرمز برای لغو، نارنجی برای موارد مهم.
+
+ */
+
+}
+
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+  font-family: inter !important;
+}
+
+body{
+  background-color: var(--background);
+}
+
+/* end root */
+
+
+/* colors */
+
+.bg-base{
+  background-color: var(--background);
+}
+
+.bg-box{
+  background-color: var(--box);
+}
+
+.text{
+  color: var(--text);
+}
+
+.green{
+  color: var(--text-green);
+}
+
+/* end colors */
+
+
+/* width */
+
+.calc-320{
+  width: calc(100% - 320px);
+}
+
+/* end width */
